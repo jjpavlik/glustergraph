@@ -6,8 +6,8 @@ Show your gluster volumes and bricks in a graphicalish way. This was tested on G
 
 Unfortunately at the time I decided to write glustergraph my blog was entirely in Spanish, the particular entries were:
 
-http://viviendolared.blogspot.ie/2014/08/gluster-graficando-mi-gluster-i.html
-http://viviendolared.blogspot.ie/2014/08/gluster-graficando-mi-gluster-ii.html
+- http://viviendolared.blogspot.ie/2014/08/gluster-graficando-mi-gluster-i.html
+- http://viviendolared.blogspot.ie/2014/08/gluster-graficando-mi-gluster-ii.html
 
 if you have any questions, you can just add a comment in english to the post and I'll be more than glad to answer.
 
