@@ -15,9 +15,11 @@
 #TIPS:
 # 1-Build gluster_info file by running:
 # gluster vol info > gluster_info
-# 2-Compile by running create_jar.sh
-# 3-Run script ./run.sh
-# 5-A PNG file called out.png should be generated
+# 2-Compile by running 
+# ./create_jar.sh
+# 3-Run script 
+# ./run.sh
+# 4-A PNG file called out.png should be generated
 # --Bricks that belong to the same volume will have the same colour.
 # --Replicated bricks can be identified by their REPX code.
 
