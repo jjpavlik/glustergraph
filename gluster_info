@@ -1,0 +1,59 @@
+Volume Name: vol2
+Type: Distribute
+Volume ID: 1f9db37d-fc16-433e-9c39-af526ea32027
+Status: Started
+Number of Bricks: 1
+Transport-type: tcp
+Bricks:
+Brick1: gfsc-nodo03:/ladrillos/l1
+Options Reconfigured:
+performance.cache-size: 256MB
+
+Volume Name: vol1
+Type: Distribute
+Volume ID: 1f9db37d-fc16-433e-9c39-af526ea32024
+Status: Started
+Number of Bricks: 3
+Transport-type: tcp
+Bricks:
+Brick1: gfsc-nodo01:/ladrillos/l4
+Brick1: gfsc-nodo02:/ladrillos/l4
+Brick1: gfsc-nodo03:/ladrillos/l3
+Options Reconfigured:
+performance.cache-size: 256MB
+Volume Name: vol4
+Type: Distributed-Replicate
+Volume ID: f0570fe5-93fa-45f3-b875-41760a466a9a
+Status: Started
+Number of Bricks: 6 x 2 = 12
+Transport-type: tcp
+Bricks:
+Brick1: gfsc-nodo04:/ladrillos/l1
+Brick2: gfsc-nodo01:/ladrillos/l1
+Brick3: gfsc-nodo04:/ladrillos/l2
+Brick4: gfsc-nodo01:/ladrillos/l2
+Brick5: gfsc-nodo04:/ladrillos/l3
+Brick6: gfsc-nodo02:/ladrillos/l1
+Brick7: gfsc-nodo03:/ladrillos/l2
+Brick8: gfsc-nodo02:/ladrillos/l2
+Brick9: gfsc-nodo04:/ladrillos/l5
+Brick10: gfsc-nodo02:/ladrillos/l3
+Brick11: gfsc-nodo01:/ladrillos/l3
+Brick12: gfsc-nodo04:/ladrillos/l4
+Options Reconfigured:
+server.statedump-path: /var/log/glusterfs/
+performance.cache-size: 640MB
+diagnostics.client-log-level: ERROR
+
+Volume Name: vol5
+Type: Distributed-Replicate
+Volume ID: 1f9db37d-fc16-433e-9c39-af526ea32024
+Status: Started
+Number of Bricks: 1 x 3 = 3
+Transport-type: tcp
+Bricks:
+Brick1: gfsc-nodo01:/ladrillos/l5
+Brick1: gfsc-nodo02:/ladrillos/l5
+Brick1: gfsc-nodo03:/ladrillos/l4
+Options Reconfigured:
+performance.cache-size: 256MB
